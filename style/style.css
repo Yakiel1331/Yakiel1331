@@ -765,20 +765,20 @@ video {
   width: 50%;
 }
 
+.w-10 {
+  width: 2.5rem;
+}
+
 .w-9 {
   width: 2.25rem;
 }
 
-.w-full {
-  width: 100%;
-}
-
-.w-1\/3 {
-  width: 33.333333%;
-}
-
 .w-\[25\%\] {
   width: 25%;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .max-w-\[120px\] {
@@ -848,6 +848,10 @@ video {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
 }
 
 .scroll-smooth {
@@ -1076,6 +1080,10 @@ video {
 
 .font-semibold {
   font-weight: 600;
+}
+
+.capitalize {
+  text-transform: capitalize;
 }
 
 .leading-relaxed {
